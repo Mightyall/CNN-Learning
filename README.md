@@ -50,8 +50,9 @@ pip install wrapt flatbuffers tensorflow_estimator google_pasta keras_preprocess
 pip install --upgrade -t "$env/lib/python3.8/site-packages/" --no-dependencies --force "$libs/tensorflow_macos-0.1a1-cp38-cp38-macosx_11_0_arm64.whl"
 
 Now we can try in terminal:
->>python
->>import tensorflow as tf
+
+python
+import tensorflow as tf
 
 ## Now It Works!
 
